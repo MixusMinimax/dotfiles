@@ -1,0 +1,258 @@
+Handbrake Version: 1.2.1 (2019021900)
+[21:12:05] gtkgui: Preset: /General/Fast 1080p30
+[21:12:05] 1 job(s) to process
+[21:12:05] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/barometer/Videos/2020-03-01 20-34-36.m4v",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": false
+        },
+        "Mux": "m4v"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 3,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 4,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 540,
+                    "width": 960
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "2020-03-01 20-34-36"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/home/barometer/Videos/2020-03-01 20-34-36.flv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ColorMatrix": 6,
+        "ColorPrimaries": 6,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "Level": "4.0",
+        "Options": "",
+        "Preset": "fast",
+        "Profile": "main",
+        "QSV": {
+            "AsyncDepth": 4,
+            "Decode": false
+        },
+        "Quality": 22.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[21:12:05] CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+[21:12:05]  - Intel microarchitecture Skylake
+[21:12:05]  - logical processor count: 4
+[21:12:05] hb_scan: path=/home/barometer/Videos/2020-03-01 20-34-36.flv, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /home/barometer/Videos/2020-03-01 20-34-36.flv
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+[21:12:05] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.0
+libdvdread: Encrypted DVD support unavailable.
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[21:12:05] dvd: not a dvd - trying as a stream/file instead
+Input #0, flv, from '/home/barometer/Videos/2020-03-01 20-34-36.flv':
+  Metadata:
+    encoder         : Lavf57.83.100
+  Duration: 00:00:05.67, start: 0.067000, bitrate: 593 kb/s
+    Stream #0:0: Video: h264 (High), yuv420p(progressive), 960x540, 2500 kb/s, 30,30 fps, 30 tbr, 1k tbn, 60 tbc
+    Stream #0:1: Audio: aac (LC), 44100 Hz, stereo, fltp, 128 kb/s
+[21:12:05] scan: decoding previews for title 1
+[21:12:05] scan: audio 0x1: aac, rate=44100Hz, bitrate=128000 Unknown (AAC LC) (2.0 ch)
+[21:12:05] scan: 10 previews, 960x540, 30,303 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1
+[21:12:06] libhb: scan thread found 1 valid title(s)
+[21:12:06] starting job
+[21:12:06] decomb filter thread started for segment 1
+[21:12:06] decomb filter thread started for segment 2
+[21:12:06] decomb check thread started for segment 0
+[21:12:06] decomb check thread started for segment 1
+[21:12:06] decomb check thread started for segment 3
+[21:12:06] decomb check thread started for segment 2
+[21:12:06] mask filter thread started for segment 1
+[21:12:06] mask filter thread started for segment 0
+[21:12:06] decomb filter thread started for segment 0
+[21:12:06] mask filter thread started for segment 3
+[21:12:06] mask erode thread started for segment 1
+[21:12:06] mask filter thread started for segment 2
+[21:12:06] mask erode thread started for segment 0
+[21:12:06] mask erode thread started for segment 3
+[21:12:06] decomb filter thread started for segment 3
+[21:12:06] mask dilate thread started for segment 1
+[21:12:06] mask dilate thread started for segment 0
+[21:12:06] yadif thread started for segment 0
+[21:12:06] mask erode thread started for segment 2
+[21:12:06] mask dilate thread started for segment 2
+[21:12:06] mask dilate thread started for segment 3
+[21:12:06] job configuration:
+[21:12:06]  * source
+[21:12:06]    + /home/barometer/Videos/2020-03-01 20-34-36.flv
+[21:12:06]    + title 1, chapter(s) 1 to 1
+[21:12:06]    + container: flv
+[21:12:06]    + data rate: 593 kbps
+[21:12:06]  * destination
+[21:12:06]    + /home/barometer/Videos/2020-03-01 20-34-36.m4v
+[21:12:06]    + container: MPEG-4 (libavformat)
+[21:12:06]      + align initial A/V stream timestamps
+[21:12:06]  * video track
+[21:12:06]    + decoder: h264
+[21:12:06]      + bitrate 2500 kbps
+[21:12:06]    + filters
+[21:12:06]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[21:12:06]      + Decomb (mode=39)
+[21:12:06]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[21:12:06]        + frame rate: 30,303 fps -> peak rate limited to 30,000 fps
+[21:12:06]      + Crop and Scale (width=960:height=540:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[21:12:06]        + source: 960 * 540, crop (0/0/0/0): 960 * 540, scale: 960 * 540
+[21:12:06]    + Output geometry
+[21:12:06]      + storage dimensions: 960 x 540
+[21:12:06]      + pixel aspect ratio: 1 : 1
+[21:12:06]      + display dimensions: 960 x 540
+[21:12:06]    + encoder: H.264 (libx264)
+[21:12:06]      + preset:  fast
+[21:12:06]      + profile: main
+[21:12:06]      + level:   4.0
+[21:12:06]      + quality: 22,00 (RF)
+[21:12:06]      + color profile: 6-1-6
+[21:12:06]  * audio track 1
+[21:12:06]    + decoder: Unknown (AAC LC) (2.0 ch) (track 1, id 0x1)
+[21:12:06]      + bitrate: 128 kbps, samplerate: 44100 Hz
+[21:12:06]    + mixdown: Stereo
+[21:12:06]    + dither: triangular
+[21:12:06]    + encoder: AAC (libavcodec)
+[21:12:06]      + bitrate: 160 kbps, samplerate: 44100 Hz
+[21:12:06] yadif thread started for segment 1
+[21:12:06] yadif thread started for segment 3
+[21:12:06] yadif thread started for segment 2
+[21:12:06] sync: expecting 171 video frames
+[21:12:06] encx264: min-keyint: 30, keyint: 300
+[21:12:06] encx264: encoding at constant RF 22,000000
+[21:12:06] encx264: unparsed options: level=4.0:ref=2:8x8dct=0:weightp=1:subme=6:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=30
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile Main, level 4.0
+[21:12:06] sync: first pts video is 0
+[21:12:06] sync: Chapter 1 at frame 1 time 0
+[21:12:06] sync: first pts audio 0x1 is 0
+[21:12:06] reader: done. 1 scr changes
+[21:12:07] work: average encoding speed for job is 0,000000 fps
+[21:12:07] comb detect: heavy 1 | light 0 | uncombed 167 | total 168
+[21:12:07] decomb: deinterlaced 1 | blended 0 | unfiltered 167 | total 168
+[21:12:07] vfr: 168 frames output, 0 dropped and 0 duped for CFR/PFR
+[21:12:07] vfr: lost time: 0 (0 frames)
+[21:12:07] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[21:12:07] aac-decoder done: 239 frames, 0 decoder errors
+[21:12:07] h264-decoder done: 168 frames, 0 decoder errors
+[21:12:07] sync: got 168 frames, 171 expected
+[21:12:07] sync: framerate min 29,412 fps, max 30,303 fps, avg 30,054 fps
+x264 [info]: frame I:1     Avg QP:14,27  size: 21793
+x264 [info]: frame P:125   Avg QP:26,09  size:  1975
+x264 [info]: frame B:42    Avg QP:27,36  size:   866
+x264 [info]: consecutive B-frames: 54,8% 33,3%  7,1%  4,8%
+x264 [info]: mb I  I16..4: 78,4%  0,0% 21,6%
+x264 [info]: mb P  I16..4:  2,6%  0,0%  1,8%  P16..4:  3,7%  1,8%  1,1%  0,0%  0,0%    skip:89,1%
+x264 [info]: mb B  I16..4:  1,5%  0,0%  0,5%  B16..8:  4,4%  1,7%  0,3%  direct: 0,4%  skip:91,2%  L0:45,3% L1:42,7% BI:12,1%
+x264 [info]: coded y,uvDC,uvAC intra: 29,3% 39,7% 34,6% inter: 1,8% 1,7% 1,2%
+x264 [info]: i16 v,h,dc,p: 87% 10%  3%  0%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 62%  6% 30%  0%  0%  1%  0%  0%  0%
+x264 [info]: i8c dc,h,v,p: 36%  5% 59%  0%
+x264 [info]: Weighted P-Frames: Y:0,0% UV:0,0%
+x264 [info]: ref P L0: 77,7% 22,3%
+x264 [info]: ref B L0: 81,0% 19,0%
+x264 [info]: ref B L1: 99,4%  0,6%
+x264 [info]: kb/s:435,86
+[21:12:07] mux: track 0, 168 frames, 305059 bytes, 433,22 kbps, fifo 256
+[21:12:07] mux: track 1, 240 frames, 1457 bytes, 2,07 kbps, fifo 256
+[21:12:07] libhb: work result = 0

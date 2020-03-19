@@ -1,0 +1,86 @@
+[2020-03-12 11:52:35.616] [exthost] [info] extension host started
+[2020-03-12 11:52:35.652] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"extensionId":{"value":"vscode.python","_lower":"vscode.python"},"activationEvent":"onLanguage:python"}
+[2020-03-12 11:52:35.652] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/python/dist/pythonMain
+[2020-03-12 11:52:35.655] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
+[2020-03-12 11:52:35.655] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/barometer/.vscode/extensions/ms-python.python-2020.2.64397/out/client/extension
+[2020-03-12 11:52:36.204] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-12 11:52:36.204] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-03-12 11:52:36.221] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-12 11:52:36.222] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-03-12 11:52:36.250] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-12 11:52:36.250] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/git/dist/main
+[2020-03-12 11:52:36.323] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-03-12 11:52:36.324] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-03-12 11:52:36.329] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-12 11:52:36.329] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-03-12 11:52:36.337] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-12 11:52:36.338] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-03-12 11:52:36.342] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-12 11:52:36.342] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-03-12 11:52:36.351] [exthost] [info] eager extensions activated
+[2020-03-12 13:34:36.416] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-03-12 13:34:36.417] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/26/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-03-12 13:46:46.755] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 13:46:46.757] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 13:47:27.149] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 13:47:27.149] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 13:47:27.695] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 13:47:27.695] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 13:47:28.240] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 13:47:28.240] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 13:47:28.791] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 13:47:28.791] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 13:58:52.447] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 13:58:52.448] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 13:58:52.829] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 13:58:52.829] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 13:58:54.903] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 13:58:54.903] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 13:58:55.467] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 13:58:55.467] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 14:10:32.084] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 14:10:32.084] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 14:10:42.354] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 14:10:42.354] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 14:10:43.496] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 14:10:43.496] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 14:13:00.236] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 14:13:00.236] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 14:30:34.132] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 14:30:34.132] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 15:06:45.631] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 15:06:45.631] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151
+[2020-03-12 15:06:47.262] [exthost] [error] [ms-python.python] provider FAILED
+[2020-03-12 15:06:47.262] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:373)
+	at /snap/code/26/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:596:151

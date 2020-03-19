@@ -1,0 +1,517 @@
+2020/3/8 11:35:46 - (5) 0 - Steam: Trying to synchronize campaign from Steam cloud...
+2020/3/8 11:35:46 - (6) 0 - Steam is initialized.
+2020/3/8 11:35:46 - (7) 0 - Steam cloud is enabled for app.
+2020/3/8 11:35:46 - (8) 0 - Steam cloud is enabled for account.
+2020/3/8 11:35:46 - (9) 0 - Steam cloud file «turmoil_campaign_save.json» exists
+2020/3/8 11:35:46 - (10) 0 - Steam: 43221 bytes of contents read from Steam cloud file «turmoil_campaign_save.json».
+2020/3/8 11:35:46 - (11) 0 - Steam cloud file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 11:35:46 - (12) 0 - Steam: done trying synchronize campaign from Steam cloud.
+2020/3/8 11:35:46 - (13) 0 - Steam: Trying to synchronize conquest from Steam cloud...
+2020/3/8 11:35:46 - (14) 0 - Steam is initialized.
+2020/3/8 11:35:46 - (15) 0 - Steam cloud is enabled for app.
+2020/3/8 11:35:46 - (16) 0 - Steam cloud is enabled for account.
+2020/3/8 11:35:46 - (17) 0 - Steam cloud file «turmoil_conquest_save.json» exists
+2020/3/8 11:35:46 - (18) 0 - Steam: 106 bytes of contents read from Steam cloud file «turmoil_conquest_save.json».
+2020/3/8 11:35:46 - (19) 0 - Steam: done trying synchronize conquest from Steam cloud.
+2020/3/8 11:35:46 - (20) 0 - conquest_load() BEGIN
+2020/3/8 11:35:47 - (22) 0 - conquest_load() END
+2020/3/8 11:35:47 - (23) 0 - conquest_save() BEGIN
+2020/3/8 11:35:47 - (25) 0 - conquest_save() END
+2020/3/8 11:35:47 - (359) 0 - save game version is { { 2,0,11 },  }.
+2020/3/8 11:35:47 - (361) 0 - app version 2.0.11;turmoil_campaign_save.json: savegame version 2.0.11.
+2020/3/8 11:36:20 - (526) 885 - campaign_load() BEGIN
+2020/3/8 11:36:20 - (748) 885 - campaign_load() END
+2020/3/8 11:36:20 - (754) 885 - Entering street on campaign mode normal; occasion 37
+2020/3/8 11:39:14 - (829) 6099 - Starting game with seed 14512414 on province snow and occasion 37
+2020/3/8 11:44:49 - (1487) 16145 - Steam - Check initialized for setting «ach_diamond_pickup»...
+2020/3/8 11:44:49 - (1488) 16145 - Steam - Trying to set «ach_diamond_pickup»...
+2020/3/8 11:44:49 - (1489) 16145 - Steam - «ach_diamond_pickup» was already set.
+2020/3/8 11:44:49 - (1490) 16145 - Steam - Done trying to set «ach_diamond_pickup».
+2020/3/8 11:49:52 - (2736) 25213 - Sum of all values is 40759.33. Profit is 40759.33. Difference is 0.00.
+2020/3/8 11:49:52 - (2737) 25213 - Steam - Check initialized for setting «ach_level_profit_10000»...
+2020/3/8 11:49:52 - (2738) 25213 - Steam - Trying to set «ach_level_profit_10000»...
+2020/3/8 11:49:52 - (2739) 25213 - Steam - «ach_level_profit_10000» was already set.
+2020/3/8 11:49:52 - (2740) 25213 - Steam - Done trying to set «ach_level_profit_10000».
+2020/3/8 11:49:52 - (2741) 25213 - Steam - Check initialized for setting «ach_level_profit_25000»...
+2020/3/8 11:49:52 - (2742) 25213 - Steam - Trying to set «ach_level_profit_25000»...
+2020/3/8 11:49:52 - (2743) 25213 - Steam - «ach_level_profit_25000» was already set.
+2020/3/8 11:49:52 - (2744) 25213 - Steam - Done trying to set «ach_level_profit_25000».
+2020/3/8 11:49:52 - (2745) 25213 - Steam - Check initialized for setting «ach_bonus_oil_depleted»...
+2020/3/8 11:49:52 - (2746) 25213 - Steam - Trying to set «ach_bonus_oil_depleted»...
+2020/3/8 11:49:52 - (2747) 25213 - Steam - «ach_bonus_oil_depleted» was already set.
+2020/3/8 11:49:52 - (2748) 25213 - Steam - Done trying to set «ach_bonus_oil_depleted».
+2020/3/8 11:50:0 - (2785) 25428 - Entering street on campaign mode normal; occasion 38
+2020/3/8 11:50:0 - (2791) 25428 - Activating profittask
+2020/3/8 11:50:0 - (2895) 25428 - profittask, user defined 6: create profit window.
+2020/3/8 11:50:0 - (2898) 25428 - Destroying profittask
+2020/3/8 11:50:0 - (2900) 25428 - campaign_save() BEGIN
+2020/3/8 11:50:0 - (2902) 25428 - campaign_save() END
+2020/3/8 11:50:0 - (2905) 25428 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 11:50:0 - (2906) 25428 - Steam is initialized.
+2020/3/8 11:50:0 - (2907) 25428 - Steam cloud is enabled for app.
+2020/3/8 11:50:0 - (2908) 25428 - Steam cloud is enabled for account.
+2020/3/8 11:50:0 - (2909) 25428 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 11:50:0 - (2910) 25428 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 11:50:0 - (2911) 25428 - Steam: local file size is 43184 bytes.
+2020/3/8 11:50:0 - (2912) 25428 - Steam: cloud free quota is 956673 bytes.
+2020/3/8 11:50:0 - (2913) 25428 - Steam: 43184 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 11:50:0 - (2914) 25428 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 11:50:0 - (2915) 25428 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 11:50:0 - (2916) 25428 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 11:50:24 - (3028) 26116 - Entering street on campaign mode normal; occasion 38
+2020/3/8 11:50:24 - (3035) 26116 - campaign_save() BEGIN
+2020/3/8 11:50:24 - (3037) 26116 - campaign_save() END
+2020/3/8 11:50:24 - (3040) 26116 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 11:50:24 - (3041) 26116 - Steam is initialized.
+2020/3/8 11:50:24 - (3042) 26116 - Steam cloud is enabled for app.
+2020/3/8 11:50:24 - (3043) 26116 - Steam cloud is enabled for account.
+2020/3/8 11:50:24 - (3044) 26116 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 11:50:24 - (3045) 26116 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 11:50:24 - (3046) 26116 - Steam: local file size is 43185 bytes.
+2020/3/8 11:50:24 - (3047) 26116 - Steam: cloud free quota is 956710 bytes.
+2020/3/8 11:50:24 - (3048) 26116 - Steam: 43185 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 11:50:24 - (3049) 26116 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 11:50:24 - (3050) 26116 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 11:50:24 - (3051) 26116 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 11:50:29 - (3093) 26273 - Started auction for occasion 38 and province snow
+2020/3/8 11:50:52 - (3181) 26947 - Entering street on campaign mode normal; occasion 38
+2020/3/8 11:50:52 - (3188) 26947 - campaign_save() BEGIN
+2020/3/8 11:50:53 - (3190) 26947 - campaign_save() END
+2020/3/8 11:50:53 - (3193) 26947 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 11:50:53 - (3194) 26947 - Steam is initialized.
+2020/3/8 11:50:53 - (3195) 26947 - Steam cloud is enabled for app.
+2020/3/8 11:50:53 - (3196) 26947 - Steam cloud is enabled for account.
+2020/3/8 11:50:53 - (3197) 26947 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 11:50:53 - (3198) 26947 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 11:50:53 - (3199) 26947 - Steam: local file size is 43228 bytes.
+2020/3/8 11:50:53 - (3200) 26947 - Steam: cloud free quota is 956709 bytes.
+2020/3/8 11:50:53 - (3201) 26947 - Steam: 43228 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 11:50:53 - (3202) 26947 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 11:50:53 - (3203) 26947 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 11:50:53 - (3204) 26947 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 11:51:8 - (3350) 27412 - Starting game with seed 4237734 on province snow and occasion 38
+2020/3/8 12:0:24 - (5619) 44081 - Steam - Check initialized for setting «ach_oilprice_200»...
+2020/3/8 12:0:24 - (5620) 44081 - Steam - Trying to set «ach_oilprice_200»...
+2020/3/8 12:0:24 - (5621) 44081 - Steam - «ach_oilprice_200» was already set.
+2020/3/8 12:0:24 - (5622) 44081 - Steam - Done trying to set «ach_oilprice_200».
+2020/3/8 12:0:31 - (5644) 44276 - Steam - Check initialized for setting «ach_oilprice_250»...
+2020/3/8 12:0:31 - (5645) 44276 - Steam - Trying to set «ach_oilprice_250»...
+2020/3/8 12:0:31 - (5646) 44276 - Steam - «ach_oilprice_250» has been set.
+2020/3/8 12:0:31 - (5647) 44276 - Steam - Done trying to set «ach_oilprice_250».
+2020/3/8 12:0:50 - (5828) 44829 - Sum of all values is 22789.55. Profit is 22789.55. Difference is 0.00.
+2020/3/8 12:0:50 - (5829) 44829 - Steam - Check initialized for setting «ach_level_profit_10000»...
+2020/3/8 12:0:50 - (5830) 44829 - Steam - Trying to set «ach_level_profit_10000»...
+2020/3/8 12:0:50 - (5831) 44829 - Steam - «ach_level_profit_10000» was already set.
+2020/3/8 12:0:50 - (5832) 44829 - Steam - Done trying to set «ach_level_profit_10000».
+2020/3/8 12:0:50 - (5833) 44829 - Steam - Check initialized for setting «ach_bonus_oil_depleted»...
+2020/3/8 12:0:50 - (5834) 44829 - Steam - Trying to set «ach_bonus_oil_depleted»...
+2020/3/8 12:0:50 - (5835) 44829 - Steam - «ach_bonus_oil_depleted» was already set.
+2020/3/8 12:0:50 - (5836) 44829 - Steam - Done trying to set «ach_bonus_oil_depleted».
+2020/3/8 12:0:56 - (5860) 44999 - Entering street on campaign mode normal; occasion 39
+2020/3/8 12:0:56 - (5866) 44999 - Activating profittask
+2020/3/8 12:0:56 - (5970) 44999 - profittask, user defined 6: create profit window.
+2020/3/8 12:0:56 - (5973) 44999 - Destroying profittask
+2020/3/8 12:0:56 - (5975) 44999 - campaign_save() BEGIN
+2020/3/8 12:0:56 - (5977) 44999 - campaign_save() END
+2020/3/8 12:0:56 - (5980) 44999 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:0:56 - (5981) 44999 - Steam is initialized.
+2020/3/8 12:0:56 - (5982) 44999 - Steam cloud is enabled for app.
+2020/3/8 12:0:56 - (5983) 44999 - Steam cloud is enabled for account.
+2020/3/8 12:0:56 - (5984) 44999 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:0:56 - (5985) 44999 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:0:56 - (5986) 44999 - Steam: local file size is 43178 bytes.
+2020/3/8 12:0:56 - (5987) 44999 - Steam: cloud free quota is 956666 bytes.
+2020/3/8 12:0:56 - (5988) 44999 - Steam: 43178 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:0:56 - (5989) 44999 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:0:56 - (5990) 44999 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:0:56 - (5991) 44999 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:1:49 - (6326) 46570 - Entering street on campaign mode normal; occasion 39
+2020/3/8 12:1:49 - (6333) 46570 - campaign_save() BEGIN
+2020/3/8 12:1:50 - (6335) 46570 - campaign_save() END
+2020/3/8 12:1:50 - (6338) 46570 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:1:50 - (6339) 46570 - Steam is initialized.
+2020/3/8 12:1:50 - (6340) 46570 - Steam cloud is enabled for app.
+2020/3/8 12:1:50 - (6341) 46570 - Steam cloud is enabled for account.
+2020/3/8 12:1:50 - (6342) 46570 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:1:50 - (6343) 46570 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:1:50 - (6344) 46570 - Steam: local file size is 43178 bytes.
+2020/3/8 12:1:50 - (6345) 46570 - Steam: cloud free quota is 956716 bytes.
+2020/3/8 12:1:50 - (6346) 46570 - Steam: 43178 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:1:50 - (6347) 46570 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:1:50 - (6348) 46570 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:1:50 - (6349) 46570 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:1:56 - (6392) 46764 - Started auction for occasion 39 and province snow
+2020/3/8 12:2:14 - (6449) 47293 - Entering street on campaign mode normal; occasion 39
+2020/3/8 12:2:14 - (6456) 47293 - campaign_save() BEGIN
+2020/3/8 12:2:14 - (6458) 47293 - campaign_save() END
+2020/3/8 12:2:14 - (6461) 47293 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:2:14 - (6462) 47293 - Steam is initialized.
+2020/3/8 12:2:14 - (6463) 47293 - Steam cloud is enabled for app.
+2020/3/8 12:2:14 - (6464) 47293 - Steam cloud is enabled for account.
+2020/3/8 12:2:14 - (6465) 47293 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:2:14 - (6466) 47293 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:2:14 - (6467) 47293 - Steam: local file size is 43221 bytes.
+2020/3/8 12:2:14 - (6468) 47293 - Steam: cloud free quota is 956716 bytes.
+2020/3/8 12:2:14 - (6469) 47293 - Steam: 43221 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:2:14 - (6470) 47293 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:2:14 - (6471) 47293 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:2:14 - (6472) 47293 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:3:16 - (6846) 49137 - Entering street on campaign mode normal; occasion 39
+2020/3/8 12:3:16 - (6853) 49137 - campaign_save() BEGIN
+2020/3/8 12:3:16 - (6855) 49137 - campaign_save() END
+2020/3/8 12:3:16 - (6858) 49137 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:3:16 - (6859) 49137 - Steam is initialized.
+2020/3/8 12:3:16 - (6860) 49137 - Steam cloud is enabled for app.
+2020/3/8 12:3:16 - (6861) 49137 - Steam cloud is enabled for account.
+2020/3/8 12:3:16 - (6862) 49137 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:3:16 - (6863) 49137 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:3:16 - (6864) 49137 - Steam: local file size is 43225 bytes.
+2020/3/8 12:3:16 - (6865) 49137 - Steam: cloud free quota is 956673 bytes.
+2020/3/8 12:3:16 - (6866) 49137 - Steam: 43225 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:3:16 - (6867) 49137 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:3:16 - (6868) 49137 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:3:16 - (6869) 49137 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:3:37 - (7109) 49767 - Starting game with seed 14627507 on province snow and occasion 39
+2020/3/8 12:9:14 - (9735) 59866 - Steam - Check initialized for setting «ach_oilprice_200»...
+2020/3/8 12:9:14 - (9736) 59866 - Steam - Trying to set «ach_oilprice_200»...
+2020/3/8 12:9:14 - (9737) 59866 - Steam - «ach_oilprice_200» was already set.
+2020/3/8 12:9:14 - (9738) 59866 - Steam - Done trying to set «ach_oilprice_200».
+2020/3/8 12:9:21 - (9792) 60064 - Steam - Check initialized for setting «ach_oilprice_250»...
+2020/3/8 12:9:21 - (9793) 60064 - Steam - Trying to set «ach_oilprice_250»...
+2020/3/8 12:9:21 - (9794) 60064 - Steam - «ach_oilprice_250» was already set.
+2020/3/8 12:9:21 - (9795) 60064 - Steam - Done trying to set «ach_oilprice_250».
+2020/3/8 12:9:40 - (9995) 60599 - Sum of all values is 14921.45. Profit is 14921.45. Difference is -0.00.
+2020/3/8 12:9:40 - (9996) 60599 - Steam - Check initialized for setting «ach_level_profit_10000»...
+2020/3/8 12:9:40 - (9997) 60599 - Steam - Trying to set «ach_level_profit_10000»...
+2020/3/8 12:9:40 - (9998) 60599 - Steam - «ach_level_profit_10000» was already set.
+2020/3/8 12:9:40 - (9999) 60599 - Steam - Done trying to set «ach_level_profit_10000».
+2020/3/8 12:9:40 - (10000) 60599 - Steam - Check initialized for setting «ach_bonus_oil_depleted»...
+2020/3/8 12:9:40 - (10001) 60599 - Steam - Trying to set «ach_bonus_oil_depleted»...
+2020/3/8 12:9:40 - (10002) 60599 - Steam - «ach_bonus_oil_depleted» was already set.
+2020/3/8 12:9:40 - (10003) 60599 - Steam - Done trying to set «ach_bonus_oil_depleted».
+2020/3/8 12:9:41 - (10027) 60643 - Entering street on campaign mode normal; occasion 40
+2020/3/8 12:9:41 - (10033) 60643 - Activating profittask
+2020/3/8 12:9:41 - (10137) 60643 - profittask, user defined 6: create profit window.
+2020/3/8 12:9:41 - (10140) 60643 - Destroying profittask
+2020/3/8 12:9:41 - (10142) 60643 - campaign_save() BEGIN
+2020/3/8 12:9:42 - (10144) 60643 - campaign_save() END
+2020/3/8 12:9:42 - (10147) 60643 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:9:42 - (10148) 60643 - Steam is initialized.
+2020/3/8 12:9:42 - (10149) 60643 - Steam cloud is enabled for app.
+2020/3/8 12:9:42 - (10150) 60643 - Steam cloud is enabled for account.
+2020/3/8 12:9:42 - (10151) 60643 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:9:42 - (10152) 60643 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:9:42 - (10153) 60643 - Steam: local file size is 43179 bytes.
+2020/3/8 12:9:42 - (10154) 60643 - Steam: cloud free quota is 956669 bytes.
+2020/3/8 12:9:42 - (10155) 60643 - Steam: 43179 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:9:42 - (10156) 60643 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:9:42 - (10157) 60643 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:9:42 - (10158) 60643 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:9:59 - (10254) 61131 - Entering street on campaign mode normal; occasion 40
+2020/3/8 12:9:59 - (10261) 61131 - campaign_save() BEGIN
+2020/3/8 12:9:59 - (10263) 61131 - campaign_save() END
+2020/3/8 12:9:59 - (10266) 61131 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:9:59 - (10267) 61131 - Steam is initialized.
+2020/3/8 12:9:59 - (10268) 61131 - Steam cloud is enabled for app.
+2020/3/8 12:9:59 - (10269) 61131 - Steam cloud is enabled for account.
+2020/3/8 12:9:59 - (10270) 61131 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:9:59 - (10271) 61131 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:9:59 - (10272) 61131 - Steam: local file size is 43179 bytes.
+2020/3/8 12:9:59 - (10273) 61131 - Steam: cloud free quota is 956715 bytes.
+2020/3/8 12:9:59 - (10274) 61131 - Steam: 43179 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:9:59 - (10275) 61131 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:9:59 - (10276) 61131 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:9:59 - (10277) 61131 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:10:7 - (10381) 61385 - Entering street on campaign mode normal; occasion 40
+2020/3/8 12:10:8 - (10388) 61385 - campaign_save() BEGIN
+2020/3/8 12:10:8 - (10390) 61385 - campaign_save() END
+2020/3/8 12:10:8 - (10393) 61385 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:10:8 - (10394) 61385 - Steam is initialized.
+2020/3/8 12:10:8 - (10395) 61385 - Steam cloud is enabled for app.
+2020/3/8 12:10:8 - (10396) 61385 - Steam cloud is enabled for account.
+2020/3/8 12:10:8 - (10397) 61385 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:10:8 - (10398) 61385 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:10:8 - (10399) 61385 - Steam: local file size is 43179 bytes.
+2020/3/8 12:10:8 - (10400) 61385 - Steam: cloud free quota is 956715 bytes.
+2020/3/8 12:10:8 - (10401) 61385 - Steam: 43179 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:10:8 - (10402) 61385 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:10:8 - (10403) 61385 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:10:8 - (10404) 61385 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:10:32 - (10677) 62115 - Entering street on campaign mode normal; occasion 40
+2020/3/8 12:10:32 - (10684) 62115 - campaign_save() BEGIN
+2020/3/8 12:10:33 - (10686) 62115 - campaign_save() END
+2020/3/8 12:10:33 - (10689) 62115 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:10:33 - (10690) 62115 - Steam is initialized.
+2020/3/8 12:10:33 - (10691) 62115 - Steam cloud is enabled for app.
+2020/3/8 12:10:33 - (10692) 62115 - Steam cloud is enabled for account.
+2020/3/8 12:10:33 - (10693) 62115 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:10:33 - (10694) 62115 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:10:33 - (10695) 62115 - Steam: local file size is 43181 bytes.
+2020/3/8 12:10:33 - (10696) 62115 - Steam: cloud free quota is 956715 bytes.
+2020/3/8 12:10:33 - (10697) 62115 - Steam: 43181 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:10:33 - (10698) 62115 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:10:33 - (10699) 62115 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:10:33 - (10700) 62115 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:11:36 - (11049) 63998 - Started auction for occasion 40 and province snow
+2020/3/8 12:11:55 - (11092) 64569 - Entering street on campaign mode normal; occasion 40
+2020/3/8 12:11:55 - (11099) 64569 - campaign_save() BEGIN
+2020/3/8 12:11:55 - (11101) 64569 - campaign_save() END
+2020/3/8 12:11:55 - (11104) 64569 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:11:55 - (11105) 64569 - Steam is initialized.
+2020/3/8 12:11:55 - (11106) 64569 - Steam cloud is enabled for app.
+2020/3/8 12:11:55 - (11107) 64569 - Steam cloud is enabled for account.
+2020/3/8 12:11:55 - (11108) 64569 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:11:55 - (11109) 64569 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:11:55 - (11110) 64569 - Steam: local file size is 43219 bytes.
+2020/3/8 12:11:55 - (11111) 64569 - Steam: cloud free quota is 956713 bytes.
+2020/3/8 12:11:55 - (11112) 64569 - Steam: 43219 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:11:55 - (11113) 64569 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:11:55 - (11114) 64569 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:11:55 - (11115) 64569 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:12:8 - (11235) 64939 - Starting game with seed 12219343 on province snow and occasion 40
+2020/3/8 12:21:45 - (13146) 82250 - Steam - Check initialized for setting «ach_oilprice_200»...
+2020/3/8 12:21:45 - (13147) 82250 - Steam - Trying to set «ach_oilprice_200»...
+2020/3/8 12:21:45 - (13148) 82250 - Steam - «ach_oilprice_200» was already set.
+2020/3/8 12:21:45 - (13149) 82250 - Steam - Done trying to set «ach_oilprice_200».
+2020/3/8 12:21:48 - (13166) 82340 - Steam - Check initialized for setting «ach_oilprice_250»...
+2020/3/8 12:21:48 - (13167) 82340 - Steam - Trying to set «ach_oilprice_250»...
+2020/3/8 12:21:48 - (13168) 82340 - Steam - «ach_oilprice_250» was already set.
+2020/3/8 12:21:48 - (13169) 82340 - Steam - Done trying to set «ach_oilprice_250».
+2020/3/8 12:21:58 - (13286) 82604 - Sum of all values is 1788.54. Profit is 1788.54. Difference is 0.00.
+2020/3/8 12:21:58 - (13287) 82604 - Steam - Check initialized for setting «ach_bonus_oil_depleted»...
+2020/3/8 12:21:58 - (13288) 82604 - Steam - Trying to set «ach_bonus_oil_depleted»...
+2020/3/8 12:21:58 - (13289) 82604 - Steam - «ach_bonus_oil_depleted» was already set.
+2020/3/8 12:21:58 - (13290) 82604 - Steam - Done trying to set «ach_bonus_oil_depleted».
+2020/3/8 12:22:2 - (13315) 82716 - Entering street on campaign mode normal; occasion 41
+2020/3/8 12:22:2 - (13321) 82716 - Activating profittask
+2020/3/8 12:22:2 - (13425) 82716 - profittask, user defined 6: create profit window.
+2020/3/8 12:22:2 - (13428) 82716 - Destroying profittask
+2020/3/8 12:22:2 - (13430) 82716 - campaign_save() BEGIN
+2020/3/8 12:22:2 - (13432) 82716 - campaign_save() END
+2020/3/8 12:22:2 - (13435) 82716 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:22:2 - (13436) 82716 - Steam is initialized.
+2020/3/8 12:22:2 - (13437) 82716 - Steam cloud is enabled for app.
+2020/3/8 12:22:2 - (13438) 82716 - Steam cloud is enabled for account.
+2020/3/8 12:22:2 - (13439) 82716 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:22:2 - (13440) 82716 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:22:2 - (13441) 82716 - Steam: local file size is 43176 bytes.
+2020/3/8 12:22:2 - (13442) 82716 - Steam: cloud free quota is 956675 bytes.
+2020/3/8 12:22:2 - (13443) 82716 - Steam: 43176 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:22:2 - (13444) 82716 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:22:2 - (13445) 82716 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:22:2 - (13446) 82716 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:22:30 - (13562) 83530 - Started auction for occasion 41 and province snow
+2020/3/8 12:22:47 - (13611) 84027 - Entering street on campaign mode normal; occasion 41
+2020/3/8 12:22:47 - (13618) 84027 - campaign_save() BEGIN
+2020/3/8 12:22:47 - (13620) 84027 - campaign_save() END
+2020/3/8 12:22:47 - (13623) 84027 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:22:47 - (13624) 84027 - Steam is initialized.
+2020/3/8 12:22:47 - (13625) 84027 - Steam cloud is enabled for app.
+2020/3/8 12:22:47 - (13626) 84027 - Steam cloud is enabled for account.
+2020/3/8 12:22:47 - (13627) 84027 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:22:47 - (13628) 84027 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:22:47 - (13629) 84027 - Steam: local file size is 43220 bytes.
+2020/3/8 12:22:47 - (13630) 84027 - Steam: cloud free quota is 956718 bytes.
+2020/3/8 12:22:47 - (13631) 84027 - Steam: 43220 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:22:47 - (13632) 84027 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:22:47 - (13633) 84027 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:22:47 - (13634) 84027 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:23:12 - (13787) 84753 - Entering street on campaign mode normal; occasion 41
+2020/3/8 12:23:12 - (13794) 84753 - campaign_save() BEGIN
+2020/3/8 12:23:12 - (13796) 84753 - campaign_save() END
+2020/3/8 12:23:12 - (13799) 84753 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:23:12 - (13800) 84753 - Steam is initialized.
+2020/3/8 12:23:12 - (13801) 84753 - Steam cloud is enabled for app.
+2020/3/8 12:23:12 - (13802) 84753 - Steam cloud is enabled for account.
+2020/3/8 12:23:12 - (13803) 84753 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:23:12 - (13804) 84753 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:23:12 - (13805) 84753 - Steam: local file size is 43220 bytes.
+2020/3/8 12:23:12 - (13806) 84753 - Steam: cloud free quota is 956674 bytes.
+2020/3/8 12:23:12 - (13807) 84753 - Steam: 43220 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:23:12 - (13808) 84753 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:23:12 - (13809) 84753 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:23:12 - (13810) 84753 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:23:24 - (13855) 85103 - Starting game with seed 14159220 on province snow and occasion 41
+2020/3/8 12:36:51 - (16297) 109300 - Steam - Check initialized for setting «ach_oilprice_200»...
+2020/3/8 12:36:51 - (16298) 109300 - Steam - Trying to set «ach_oilprice_200»...
+2020/3/8 12:36:51 - (16299) 109300 - Steam - «ach_oilprice_200» was already set.
+2020/3/8 12:36:51 - (16300) 109300 - Steam - Done trying to set «ach_oilprice_200».
+2020/3/8 12:36:55 - (16475) 109387 - Sum of all values is -1790.73. Profit is -1790.73. Difference is 0.00.
+2020/3/8 12:36:55 - (16476) 109387 - Steam - Check initialized for setting «ach_bonus_oil_depleted»...
+2020/3/8 12:36:55 - (16477) 109387 - Steam - Trying to set «ach_bonus_oil_depleted»...
+2020/3/8 12:36:55 - (16478) 109387 - Steam - «ach_bonus_oil_depleted» was already set.
+2020/3/8 12:36:55 - (16479) 109387 - Steam - Done trying to set «ach_bonus_oil_depleted».
+2020/3/8 12:36:57 - (16498) 109454 - Entering street on campaign mode normal; occasion 42
+2020/3/8 12:36:57 - (16504) 109454 - Activating profittask
+2020/3/8 12:36:57 - (16608) 109454 - profittask, user defined 6: create profit window.
+2020/3/8 12:36:57 - (16611) 109454 - Destroying profittask
+2020/3/8 12:36:57 - (16613) 109454 - campaign_save() BEGIN
+2020/3/8 12:36:57 - (16615) 109454 - campaign_save() END
+2020/3/8 12:36:57 - (16618) 109454 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:36:57 - (16619) 109454 - Steam is initialized.
+2020/3/8 12:36:57 - (16620) 109454 - Steam cloud is enabled for app.
+2020/3/8 12:36:57 - (16621) 109454 - Steam cloud is enabled for account.
+2020/3/8 12:36:57 - (16622) 109454 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:36:57 - (16623) 109454 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:36:57 - (16624) 109454 - Steam: local file size is 43172 bytes.
+2020/3/8 12:36:57 - (16625) 109454 - Steam: cloud free quota is 956674 bytes.
+2020/3/8 12:36:57 - (16626) 109454 - Steam: 43172 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:36:57 - (16627) 109454 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:36:57 - (16628) 109454 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:36:57 - (16629) 109454 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:37:29 - (16857) 110393 - Entering street on campaign mode normal; occasion 42
+2020/3/8 12:37:29 - (16879) 110397 - Steam - Check initialized for setting «ach_campaign_won_normal»...
+2020/3/8 12:37:29 - (16880) 110397 - Steam - Trying to set «ach_campaign_won_normal»...
+2020/3/8 12:37:29 - (16881) 110397 - Steam - «ach_campaign_won_normal» has been set.
+2020/3/8 12:37:29 - (16882) 110397 - Steam - Done trying to set «ach_campaign_won_normal».
+2020/3/8 12:37:29 - (16883) 110397 - conquest_save() BEGIN
+2020/3/8 12:37:29 - (16885) 110397 - conquest_save() END
+2020/3/8 12:37:29 - (16886) 110397 - Steam: trying to synchronize conquest onto Steam cloud...
+2020/3/8 12:37:29 - (16887) 110397 - Steam is initialized.
+2020/3/8 12:37:29 - (16888) 110397 - Steam cloud is enabled for app.
+2020/3/8 12:37:29 - (16889) 110397 - Steam cloud is enabled for account.
+2020/3/8 12:37:29 - (16890) 110397 - Steam - local file «turmoil_conquest_save.json» exists.
+2020/3/8 12:37:29 - (16891) 110397 - Steam cloud file «turmoil_conquest_save.json» persisted.
+2020/3/8 12:37:29 - (16892) 110397 - Steam: local file size is 106 bytes.
+2020/3/8 12:37:29 - (16893) 110397 - Steam: cloud free quota is 956722 bytes.
+2020/3/8 12:37:29 - (16894) 110397 - Steam: 106 bytes of contents read from local file «turmoil_conquest_save.json».
+2020/3/8 12:37:29 - (16895) 110397 - Steam writing file «turmoil_conquest_save.json» succeeded.
+2020/3/8 12:37:29 - (16896) 110397 - Steam: done trying to synchronize conquest onto Steam cloud.
+2020/3/8 12:37:34 - (17394) 110550 - Starting game with seed 15575993 on province island and occasion 42
+2020/3/8 12:48:8 - (19855) 129507 - Sum of all values is 92470.96. Profit is 92470.96. Difference is 0.00.
+2020/3/8 12:48:8 - (19856) 129507 - Steam - Check initialized for setting «ach_level_profit_10000»...
+2020/3/8 12:48:8 - (19857) 129507 - Steam - Trying to set «ach_level_profit_10000»...
+2020/3/8 12:48:8 - (19858) 129507 - Steam - «ach_level_profit_10000» was already set.
+2020/3/8 12:48:8 - (19859) 129507 - Steam - Done trying to set «ach_level_profit_10000».
+2020/3/8 12:48:8 - (19860) 129507 - Steam - Check initialized for setting «ach_level_profit_25000»...
+2020/3/8 12:48:8 - (19861) 129507 - Steam - Trying to set «ach_level_profit_25000»...
+2020/3/8 12:48:8 - (19862) 129507 - Steam - «ach_level_profit_25000» was already set.
+2020/3/8 12:48:8 - (19863) 129507 - Steam - Done trying to set «ach_level_profit_25000».
+2020/3/8 12:48:8 - (19864) 129507 - Steam - Check initialized for setting «ach_level_profit_50000»...
+2020/3/8 12:48:8 - (19865) 129507 - Steam - Trying to set «ach_level_profit_50000»...
+2020/3/8 12:48:8 - (19866) 129507 - Steam - «ach_level_profit_50000» was already set.
+2020/3/8 12:48:8 - (19867) 129507 - Steam - Done trying to set «ach_level_profit_50000».
+2020/3/8 12:48:8 - (19868) 129507 - Steam - Check initialized for setting «ach_bonus_oil_depleted»...
+2020/3/8 12:48:8 - (19869) 129507 - Steam - Trying to set «ach_bonus_oil_depleted»...
+2020/3/8 12:48:8 - (19870) 129507 - Steam - «ach_bonus_oil_depleted» was already set.
+2020/3/8 12:48:8 - (19871) 129507 - Steam - Done trying to set «ach_bonus_oil_depleted».
+2020/3/8 12:48:13 - (19896) 129657 - Entering street on campaign mode normal; occasion 43
+2020/3/8 12:48:13 - (19902) 129657 - Activating profittask
+2020/3/8 12:48:13 - (19904) 129657 - Steam - Check initialized for setting «ach_auction_overbid»...
+2020/3/8 12:48:13 - (19905) 129657 - Steam - Trying to set «ach_auction_overbid»...
+2020/3/8 12:48:13 - (19906) 129657 - Steam - «ach_auction_overbid» was already set.
+2020/3/8 12:48:13 - (19907) 129657 - Steam - Done trying to set «ach_auction_overbid».
+2020/3/8 12:48:13 - (19908) 129657 - Steam - Check initialized for setting «ach_auction_estateprice_10000»...
+2020/3/8 12:48:13 - (19909) 129657 - Steam - Trying to set «ach_auction_estateprice_10000»...
+2020/3/8 12:48:13 - (19910) 129657 - Steam - «ach_auction_estateprice_10000» has been set.
+2020/3/8 12:48:13 - (19911) 129657 - Steam - Done trying to set «ach_auction_estateprice_10000».
+2020/3/8 12:48:13 - (19914) 129657 - profittask, user defined 6: create profit window.
+2020/3/8 12:48:13 - (19915) 129657 - profits window suppressed because setting.profits == false.
+2020/3/8 12:48:13 - (19916) 129657 - Destroying profittask
+2020/3/8 12:48:13 - (19918) 129657 - campaign_save() BEGIN
+2020/3/8 12:48:13 - (19920) 129657 - campaign_save() END
+2020/3/8 12:48:13 - (19923) 129657 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:48:13 - (19924) 129657 - Steam is initialized.
+2020/3/8 12:48:13 - (19925) 129657 - Steam cloud is enabled for app.
+2020/3/8 12:48:13 - (19926) 129657 - Steam cloud is enabled for account.
+2020/3/8 12:48:13 - (19927) 129657 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:48:13 - (19928) 129657 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:48:13 - (19929) 129657 - Steam: local file size is 43146 bytes.
+2020/3/8 12:48:13 - (19930) 129657 - Steam: cloud free quota is 956722 bytes.
+2020/3/8 12:48:13 - (19931) 129657 - Steam: 43146 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:48:13 - (19932) 129657 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:48:13 - (19933) 129657 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:48:13 - (19934) 129657 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:48:14 - (19946) 129661 - Steam - Check initialized for setting «ach_campaign_won_normal»...
+2020/3/8 12:48:14 - (19947) 129661 - Steam - Trying to set «ach_campaign_won_normal»...
+2020/3/8 12:48:14 - (19948) 129661 - Steam - «ach_campaign_won_normal» was already set.
+2020/3/8 12:48:14 - (19949) 129661 - Steam - Done trying to set «ach_campaign_won_normal».
+2020/3/8 12:48:14 - (19950) 129661 - conquest_save() BEGIN
+2020/3/8 12:48:14 - (19952) 129661 - conquest_save() END
+2020/3/8 12:48:14 - (19953) 129661 - Steam: trying to synchronize conquest onto Steam cloud...
+2020/3/8 12:48:14 - (19954) 129661 - Steam is initialized.
+2020/3/8 12:48:14 - (19955) 129661 - Steam cloud is enabled for app.
+2020/3/8 12:48:14 - (19956) 129661 - Steam cloud is enabled for account.
+2020/3/8 12:48:14 - (19957) 129661 - Steam - local file «turmoil_conquest_save.json» exists.
+2020/3/8 12:48:14 - (19958) 129661 - Steam cloud file «turmoil_conquest_save.json» persisted.
+2020/3/8 12:48:14 - (19959) 129661 - Steam: local file size is 106 bytes.
+2020/3/8 12:48:14 - (19960) 129661 - Steam: cloud free quota is 956748 bytes.
+2020/3/8 12:48:14 - (19961) 129661 - Steam: 106 bytes of contents read from local file «turmoil_conquest_save.json».
+2020/3/8 12:48:14 - (19962) 129661 - Steam writing file «turmoil_conquest_save.json» succeeded.
+2020/3/8 12:48:14 - (19963) 129661 - Steam: done trying to synchronize conquest onto Steam cloud.
+2020/3/8 12:49:3 - (20057) 131142 - Entering street on campaign mode normal; occasion 43
+2020/3/8 12:49:3 - (20065) 131146 - Steam - Check initialized for setting «ach_campaign_won_normal»...
+2020/3/8 12:49:3 - (20066) 131146 - Steam - Trying to set «ach_campaign_won_normal»...
+2020/3/8 12:49:3 - (20067) 131146 - Steam - «ach_campaign_won_normal» was already set.
+2020/3/8 12:49:3 - (20068) 131146 - Steam - Done trying to set «ach_campaign_won_normal».
+2020/3/8 12:49:3 - (20069) 131146 - conquest_save() BEGIN
+2020/3/8 12:49:3 - (20071) 131146 - conquest_save() END
+2020/3/8 12:49:3 - (20072) 131146 - Steam: trying to synchronize conquest onto Steam cloud...
+2020/3/8 12:49:3 - (20073) 131146 - Steam is initialized.
+2020/3/8 12:49:3 - (20074) 131146 - Steam cloud is enabled for app.
+2020/3/8 12:49:3 - (20075) 131146 - Steam cloud is enabled for account.
+2020/3/8 12:49:3 - (20076) 131146 - Steam - local file «turmoil_conquest_save.json» exists.
+2020/3/8 12:49:3 - (20077) 131146 - Steam cloud file «turmoil_conquest_save.json» persisted.
+2020/3/8 12:49:3 - (20078) 131146 - Steam: local file size is 106 bytes.
+2020/3/8 12:49:3 - (20079) 131146 - Steam: cloud free quota is 956748 bytes.
+2020/3/8 12:49:3 - (20080) 131146 - Steam: 106 bytes of contents read from local file «turmoil_conquest_save.json».
+2020/3/8 12:49:3 - (20081) 131146 - Steam writing file «turmoil_conquest_save.json» succeeded.
+2020/3/8 12:49:3 - (20082) 131146 - Steam: done trying to synchronize conquest onto Steam cloud.
+2020/3/8 12:49:14 - (20142) 131462 - Entering street on campaign mode normal; occasion 43
+2020/3/8 12:49:14 - (20150) 131466 - Steam - Check initialized for setting «ach_campaign_won_normal»...
+2020/3/8 12:49:14 - (20151) 131466 - Steam - Trying to set «ach_campaign_won_normal»...
+2020/3/8 12:49:14 - (20152) 131466 - Steam - «ach_campaign_won_normal» was already set.
+2020/3/8 12:49:14 - (20153) 131466 - Steam - Done trying to set «ach_campaign_won_normal».
+2020/3/8 12:49:14 - (20154) 131466 - conquest_save() BEGIN
+2020/3/8 12:49:14 - (20156) 131466 - conquest_save() END
+2020/3/8 12:49:14 - (20157) 131466 - Steam: trying to synchronize conquest onto Steam cloud...
+2020/3/8 12:49:14 - (20158) 131466 - Steam is initialized.
+2020/3/8 12:49:14 - (20159) 131466 - Steam cloud is enabled for app.
+2020/3/8 12:49:14 - (20160) 131466 - Steam cloud is enabled for account.
+2020/3/8 12:49:14 - (20161) 131466 - Steam - local file «turmoil_conquest_save.json» exists.
+2020/3/8 12:49:14 - (20162) 131466 - Steam cloud file «turmoil_conquest_save.json» persisted.
+2020/3/8 12:49:14 - (20163) 131466 - Steam: local file size is 106 bytes.
+2020/3/8 12:49:14 - (20164) 131466 - Steam: cloud free quota is 956748 bytes.
+2020/3/8 12:49:14 - (20165) 131466 - Steam: 106 bytes of contents read from local file «turmoil_conquest_save.json».
+2020/3/8 12:49:14 - (20166) 131466 - Steam writing file «turmoil_conquest_save.json» succeeded.
+2020/3/8 12:49:14 - (20167) 131466 - Steam: done trying to synchronize conquest onto Steam cloud.
+2020/3/8 12:49:15 - (20181) 131500 - campaign_save() BEGIN
+2020/3/8 12:49:16 - (20183) 131500 - campaign_save() called from main - destroy campaign
+2020/3/8 12:49:16 - (20190) 131500 - campaign_save() END
+2020/3/8 12:49:16 - (20193) 131500 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:49:16 - (20194) 131500 - Steam is initialized.
+2020/3/8 12:49:16 - (20195) 131500 - Steam cloud is enabled for app.
+2020/3/8 12:49:16 - (20196) 131500 - Steam cloud is enabled for account.
+2020/3/8 12:49:16 - (20197) 131500 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:49:16 - (20198) 131500 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:49:16 - (20199) 131500 - Steam: local file size is 43146 bytes.
+2020/3/8 12:49:16 - (20200) 131500 - Steam: cloud free quota is 956748 bytes.
+2020/3/8 12:49:16 - (20201) 131500 - Steam: 43146 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:49:16 - (20202) 131500 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:49:16 - (20203) 131500 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:49:16 - (20204) 131500 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:49:18 - (20219) 131565 - Steam: trying to synchronize campaign onto Steam cloud...
+2020/3/8 12:49:18 - (20220) 131565 - Steam is initialized.
+2020/3/8 12:49:18 - (20221) 131565 - Steam cloud is enabled for app.
+2020/3/8 12:49:18 - (20222) 131565 - Steam cloud is enabled for account.
+2020/3/8 12:49:18 - (20223) 131565 - Steam - local file «turmoil_campaign_save.json» exists.
+2020/3/8 12:49:18 - (20224) 131565 - Steam cloud file «turmoil_campaign_save.json» persisted.
+2020/3/8 12:49:18 - (20225) 131565 - Steam: local file size is 43146 bytes.
+2020/3/8 12:49:18 - (20226) 131565 - Steam: cloud free quota is 956748 bytes.
+2020/3/8 12:49:18 - (20227) 131565 - Steam: 43146 bytes of contents read from local file «turmoil_campaign_save.json».
+2020/3/8 12:49:18 - (20228) 131565 - Steam writing file «turmoil_campaign_save.json» succeeded.
+2020/3/8 12:49:18 - (20229) 131565 - Steam - local file «turmoil_campaign_save_2.json» does not exist.
+2020/3/8 12:49:18 - (20230) 131565 - Steam: done trying to synchronize campaign onto Steam cloud.
+2020/3/8 12:49:18 - (20231) 131565 - conquest_save() BEGIN
+2020/3/8 12:49:18 - (20233) 131565 - conquest_save() END
+2020/3/8 12:49:18 - (20234) 131565 - Steam: trying to synchronize conquest onto Steam cloud...
+2020/3/8 12:49:18 - (20235) 131565 - Steam is initialized.
+2020/3/8 12:49:18 - (20236) 131565 - Steam cloud is enabled for app.
+2020/3/8 12:49:18 - (20237) 131565 - Steam cloud is enabled for account.
+2020/3/8 12:49:18 - (20238) 131565 - Steam - local file «turmoil_conquest_save.json» exists.
+2020/3/8 12:49:18 - (20239) 131565 - Steam cloud file «turmoil_conquest_save.json» persisted.
+2020/3/8 12:49:18 - (20240) 131565 - Steam: local file size is 106 bytes.
+2020/3/8 12:49:18 - (20241) 131565 - Steam: cloud free quota is 956748 bytes.
+2020/3/8 12:49:18 - (20242) 131565 - Steam: 106 bytes of contents read from local file «turmoil_conquest_save.json».
+2020/3/8 12:49:18 - (20243) 131565 - Steam writing file «turmoil_conquest_save.json» succeeded.
+2020/3/8 12:49:18 - (20244) 131565 - Steam: done trying to synchronize conquest onto Steam cloud.

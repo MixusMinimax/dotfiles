@@ -1,0 +1,29 @@
+[2020-03-11 10:09:33.972] [main] [info] update#setState idle
+[2020-03-11 10:10:03.976] [main] [info] update#setState checking for updates
+[2020-03-11 10:10:03.980] [main] [info] update#setState idle
+[2020-03-11 11:10:04.002] [main] [info] update#setState checking for updates
+[2020-03-11 11:10:04.007] [main] [info] update#setState idle
+[2020-03-11 11:28:36.007] [main] [error] webContents#will-navigate: Prevented webcontent navigation
+[2020-03-11 11:28:37.560] [main] [error] webContents#will-navigate: Prevented webcontent navigation
+[2020-03-11 12:10:04.030] [main] [info] update#setState checking for updates
+[2020-03-11 12:10:04.032] [main] [info] update#setState idle
+[2020-03-11 13:10:04.042] [main] [info] update#setState checking for updates
+[2020-03-11 13:10:04.046] [main] [info] update#setState idle
+[2020-03-11 14:10:04.065] [main] [info] update#setState checking for updates
+[2020-03-11 14:10:04.066] [main] [info] update#setState idle
+[2020-03-11 15:10:04.086] [main] [info] update#setState checking for updates
+[2020-03-11 15:10:04.091] [main] [info] update#setState idle
+[2020-03-11 16:10:04.106] [main] [info] update#setState checking for updates
+[2020-03-11 16:10:04.110] [main] [info] update#setState idle
+[2020-03-11 17:10:04.125] [main] [info] update#setState checking for updates
+[2020-03-11 17:10:04.128] [main] [info] update#setState idle
+[2020-03-11 18:10:04.144] [main] [info] update#setState checking for updates
+[2020-03-11 18:10:04.146] [main] [info] update#setState idle
+[2020-03-11 19:10:04.146] [main] [info] update#setState checking for updates
+[2020-03-11 19:10:04.151] [main] [info] update#setState idle
+[2020-03-11 20:10:04.158] [main] [info] update#setState checking for updates
+[2020-03-11 20:10:04.161] [main] [info] update#setState idle
+[2020-03-11 21:10:04.162] [main] [info] update#setState checking for updates
+[2020-03-11 21:10:04.176] [main] [info] update#setState idle
+[2020-03-11 22:10:04.181] [main] [info] update#setState checking for updates
+[2020-03-11 22:10:04.184] [main] [info] update#setState idle
