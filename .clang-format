@@ -15,13 +15,14 @@ BraceWrapping:
   AfterNamespace:  true
   AfterObjCDeclaration: false
   AfterStruct:     true
-  AfterUnion:      false
+  AfterUnion:      true
   BeforeCatch:     true
   BeforeElse:      false
   IndentBraces:    false
 BreakBeforeTernaryOperators: 'true'
 BreakConstructorInitializers: AfterColon
 BreakInheritanceList: AfterColon
+Cpp11BracedListStyle: false
 IndentWidth: '4'
 Language: Cpp
 NamespaceIndentation: All
