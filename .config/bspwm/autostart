@@ -1,0 +1,68 @@
+#!/bin/sh
+
+##run_once is a script in /usr/bin that prevents running script if it is running already
+##
+
+## remove beep
+xset -b
+
+## Start xmousepasteblock
+xmousepasteblock &
+
+## Synaptics setup
+xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" 1
+xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
+
+## Set keyboard layout
+setxkbmap -layout de,de
+
+## Load appearance settings
+xsetroot -cursor_name left_ptr &
+export GTK2_RC_FILES="$HOME/.gtkrc-2.0" &
+xrdb merge .Xresources &
+## Wallpaper. Nitrogen just draws wallpaper, 
+restart_program wal-random
+## compositing. Required for shadows, transparency and stuff. 
+# Alter compton settings if using intel graphics
+GRAPHIC_CARD=$(lspci | grep -i "vga" | sed 's/.*://' | sed 's/(.*//' | sed 's/^[ \t]*//')
+if [[ $(echo $GRAPHIC_CARD | grep -i 'intel\|lenovo') != "" ]]; then MCODE='initrd=\intel-ucode.img'
+  sed -i 's/"xrender"/"glx"/' ~/.config/compton.conf
+  grep -q 'vsync = "opengl-swc";' ~/.config/compton.conf || echo 'vsync = "opengl-swc";' >> ~/.config/compton.conf
+fi
+## Reduces flicker. Disabling saves resources.
+picom -b &
+## enable local fonts in .fonts directory
+xset +fp /usr/share/fonts/local &
+xset +fp /usr/share/fonts/misc &
+xset +fp ~/.fonts &
+xset fp rehash &
+fc-cache -fv &
+## Automount removable media
+devmon &
+## powersaving options
+xset s off &
+xset s noblank &
+xset s noexpose &
+xset c on &
+xset -dpms &
+## Run screenlock when suspending
+light-locker &
+## Make monitor settings persist between reboots
+eval $(awk -F'=' '/Exec=/ {print $2}' ~/.config/autostart/lxrandr-autostart.desktop) &
+xrandr --output HDMI1 --auto --right-of eDP1
+## Notify about package updates
+update-checker 7200 &
+## Map super key to trigger rofi when used alone
+xcape -e 'Super_L=Super_L|Shift_L|space' &
+## Polkit agent
+/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
+## Gnome keyring
+gnome-keyring-daemon &
+lxpolkit &
+thunar --daemon &
+/usr/lib/mate-notification-daemon/mate-notification-daemon &
+blueman-applet &
+nm-applet &
+dunst &
+
+sudo modprobe v4l2loopback devices=1 video_nr=10 card_label="OBS Cam" exclusive_caps=1

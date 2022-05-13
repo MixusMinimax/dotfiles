@@ -108,6 +108,7 @@ alias ..="cd .."
 alias mr="make && make run"
 alias c=clear
 alias z=mkdircd
+alias tra="tree -aI .git"
 
 alias evince="setsid evince"
 
