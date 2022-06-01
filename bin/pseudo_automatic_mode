@@ -1,0 +1,58 @@
+#! /bin/sh
+
+fwid=$(bspc query -N -n focused.automatic)
+wid=$1
+class=$2
+instance=$3
+title=$(xtitle "$wid")
+receptacle=$(bspc query -N -n ".leaf.!window.local"  | awk NR==1)
+#floats=$(bspc query -N -n .local.floating | wc -l)
+
+#echo "class: $class, title: $title" >> ~/window-classes
+
+if [[ "$title" = "floating" ]]; then
+	echo state=floating
+	exit
+fi
+
+if [[ "$class" = "Postman" ]]; then
+	if [[ "$(xtitle $1)" = "Collection Runner" ]]; then
+		echo state=floating
+	fi
+	exit
+fi
+
+if [[ "$class" = "MEGAsync" ]] ; then
+	echo state=floating
+	exit
+fi
+
+if [[ "$class" = "jetbrains"* ]]; then
+	rule_jetbrains $@
+	exit
+fi
+
+if [[ "$class" = "java-lang-Thread" && "$title" = "win0" ]]; then
+       	echo state=floating
+	exit
+fi
+
+if bspc query -N -n "@/.!automatic" > /dev/null ; then
+    echo "node=@/"
+fi
+
+if [ -n "$receptacle" ] > /dev/null ; then
+    echo "node=$receptacle"
+elif [ -n "$fwid" ] ; then
+	wattr wh $fwid | {
+		read width height
+		if [ $width -gt $height ] ; then
+			echo "split_dir=west"
+		else
+			echo "split_dir=south"
+		fi
+#		echo "split_ratio=0.5"
+	}
+fi
+wmctrl -i -r "$wid" -b add,maximized_vert,maximized_horz &>/dev/null &
+#window-placer $floats $wid

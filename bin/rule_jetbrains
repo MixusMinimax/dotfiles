@@ -1,0 +1,6 @@
+#!/bin/sh
+
+[[ "$2" = "jetbrains"* ]] && case "$(xtitle "$1")" in
+	"win0"|"Confirm Exit"|" "|"Welcome to "*) echo state=floating;;
+esac
+

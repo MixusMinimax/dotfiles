@@ -1,0 +1,66 @@
+#!/bin/sh
+
+wm_class=''
+interval='1'
+button="1"
+down="false"
+up="false"
+
+print_usage() {
+  echo "Usage: $0 -c class [-i interval] [-b button] [-duh]"
+  echo "  options:"
+  echo "    -h          Print this help and exit"
+  echo "    -c class    Start of WM_CLASS"
+  echo "    -i interval Interval between clicks in seconds, ignored if -h is set"
+  echo "    -b button   Mouse button to click, default: 1"
+  echo "    -d          Send mousedown event once, instead of clicking"
+  echo "    -u          Send mouseup event and exit"
+}
+
+while getopts 'c:i:b:duh' flag; do
+  case "${flag}" in
+    c) wm_class="${OPTARG}" ;;
+    i) interval="${OPTARG}" ;;
+    b) button="${OPTARG}" ;;
+    d) down="true" ;;
+    u) up="true" ;;
+    h) print_usage
+       exit 0 ;;
+    *) print_usage
+       exit 1 ;;
+  esac
+done
+
+if [[ "$wm_class" == '' ]] ; then
+  print_usage
+  exit 1
+fi
+
+wm_id="$(xdotool search --class "$wm_class" | head -1)"
+
+if [[ "$wm_id" == '' ]] ; then
+  echo "No window found with class \"$wm_class\"!" >&2
+  exit 2
+fi
+
+if $up ; then
+  echo "up"
+  xdotool mouseup --window "$wm_id" "$button"
+  exit 0
+fi
+
+if $down ; then
+  echo "down"
+  xdotool mousedown --window "$wm_id" "$button"
+  exit 0
+fi
+
+echo "Command: xdotool click --window $wm_id $button"
+
+while true; do
+  xdotool mouseup --window "$wm_id" 1
+  xdotool mouseup --window "$wm_id" 2
+  xdotool mouseup --window "$wm_id" 3
+  xdotool click --window "$wm_id" "$button"
+  sleep "$interval"
+done
