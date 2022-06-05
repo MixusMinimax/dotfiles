@@ -126,7 +126,7 @@ mkdircd() {
   if [[ $# = 0 ]]; then
     cd
   elif test -f $1; then
-    echo "$0: not a directory: $1"; exit 1
+    echo "$0: not a directory: $1"; return 1
   elif test -d $1; then
     cd $1
   else
